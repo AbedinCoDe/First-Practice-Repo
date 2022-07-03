@@ -1,0 +1,123 @@
+
+
+@media (max-width:1270px) {
+    .nav-custom-style .navbar-brand img {
+        width: 115px;
+    }
+    .slider-content-left {
+        margin-top: 250px;
+        width: 100%;
+        z-index: 5;
+        text-align: center;
+    }
+    .slider-section h1 {
+        font-size: 44px;
+    }
+    .socialslider {
+        transform: none;
+        top: 53%;
+        width: 100%;
+        left: 0;
+        justify-content: center;
+    }
+    .step-overview-bg {
+        margin-top: 344px;
+    }
+}
+
+@media (max-width:1240px) {
+    .nav-custom-style .navbar-brand img {
+        width: 115px;
+    }
+    .nav-custom-style ul li a {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+@media (max-width:1170px) {
+    .info-button .btn-primary {
+        padding: 10px 30px;
+    }
+}
+@media (max-width:1138px) {
+    .info-button .btn-primary {
+        padding: 10px 22px;
+     
+    }
+}
+@media (max-width:1122px) {
+    .info-button .btn-primary {
+        padding: 10px 22px;
+    }
+    .navbar-right-side .search-icon-left {
+        width: 30px;
+        margin-right: 15px;
+        margin-left: 5px;
+    }
+}
+@media (max-width:1106px) {
+    .call-info-middle {
+        width: 198px;
+    }
+    .call-info-right a {
+        font-size: 15px;
+    }
+}
+@media (max-width:1093px) {
+    .nav-custom-style ul li a {
+        margin-left: 7px;
+        margin-right: 9px;
+    }
+}
+@media (max-width:1064px) {
+    .call-info-middle {
+       display:none;
+    }
+    .nav-custom-style .navbar-nav {
+        margin: auto;
+    }
+}
+@media (max-width:992px) {
+    .nav-custom-style .navbar-nav {
+        display:none;
+    }
+   .navbar-right-side .search-icon-left{
+    display:none;
+   }
+   .nav-custom-style .info7 {
+    position: absolute;
+    right: 95px;
+    }
+    .step-overview-1 {
+        border-right: none;
+    }
+    .step-overview-bg {
+        border-top: none;
+        top: 261px;
+    }
+}
+@media (max-width:768px) {
+    .slider-section h1 {
+        font-size: 34px;
+        background-attachment: scroll;
+    }
+    .step-overview-bg {
+        border-top: none;
+        top: 150px;
+    }
+    .step-overview-1 {
+        border-right: none;
+        width: 100%;
+    }
+    .step-overview-1 {
+        padding: 57px 0;
+        border-bottom: 1px solid #dddddd91;
+    }
+    .socialslider {
+        top: 40%;
+    }
+    .slider-content-left {
+        margin-top: 90px;
+    }
+
+}

@@ -1,0 +1,92 @@
+/* Google Font Family */
+html {
+	scroll-behavior: smooth;
+}
+  
+
+body p{
+    font-family: 'Roboto', sans-serif;
+}
+h1, h2, h3, h4, h5, h6, a{
+    font-family: 'Rubik', sans-serif;
+}
+
+.container-fluid{
+    max-width: 1475px !important;
+}
+img{
+	max-width:100%;
+	height:auto;
+}
+
+/* Button style css */
+/* button style css */
+
+.info-button .btn-primary {
+	background-color: #e73c3e;
+	border: 1px solid #e73c3e;
+	padding: 13px 30px;
+	position: relative;
+	z-index: 1;
+	border-radius: 34px;
+}
+.info-button .btn-primary:hover{
+	border:1px solid #111;
+}
+
+.info-button .btn-primary::after{
+	content: "";
+	position: absolute;
+	left:0;
+	top:0;
+	height:100%;
+	width:0%;
+	background:#111;
+	z-index: -1;
+	visibility: hidden;
+	opacity:0;
+	transition: .2s;
+}
+.info-button .btn-primary:hover::after{
+	opacity:1;
+	visibility: visible;
+	border:-1px solid #111;
+	width:100%;
+	border-radius: 34px;
+}
+
+/* 404 error page css starting */
+
+.d-table{
+	width:100%;
+	height:100%;
+	display: table !important;
+}
+.d-table-cell{
+	vertical-align: middle;
+	display: table-cell !important;
+}
+.error-404-wrapper{
+	margin:0 auto;
+}
+
+.error-404{
+	height:100vh;
+}
+.error-404 img {
+	width: 700px;
+}
+.error-404 h1 {
+	font-size: 50px;
+	margin-top: 45px;
+	margin-bottom: 20px;
+}
+.error-404 p {
+	color:#606060;
+}
+.error-404 p {
+	color: #606060;
+	width: 494px;
+	margin: auto;
+	margin-bottom: 25px;
+}
